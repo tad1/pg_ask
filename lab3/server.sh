@@ -1,5 +1,5 @@
 # 0. clear
-ip addr del 10.0.0.1 dev enp0s3
+ip addr del 10.0.0.1/24 dev enp0s3
 systemctl stop sshd
 apt remove sshd
 
