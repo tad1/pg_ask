@@ -1,0 +1,1 @@
+sudo ip addr add 10.0.0.1 dev enp0s3
