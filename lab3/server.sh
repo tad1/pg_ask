@@ -5,6 +5,7 @@ apt remove sshd
 
 # 1. copy configs
 cp ~/dhcpd.conf /etc/default/isc=dhcp-server/
+cp ./server_netplan.yaml /etc/netplan/
 
 # 2. enable dhcp
 systemctl enable isc-dhcp-server.service
