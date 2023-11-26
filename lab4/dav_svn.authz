@@ -1,0 +1,7 @@
+[191343:/]
+user1 = rw
+
+
+[REPO2:/]
+user1 = r
+user2 = rw
